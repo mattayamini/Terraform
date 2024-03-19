@@ -1,0 +1,6 @@
+rgname = "res_2"
+rgloc = "westus"
+virnet = "vir-net-2"
+addrspace = "10.10.0.0/16"
+sunet = "s-net-2"
+snetaddrsp = "10.10.1.0/24"
