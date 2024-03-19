@@ -1,0 +1,67 @@
+********string:**********
+***strings and tuples are immutable
+string can be read as 
+s=input()
+#value based
+s=input()
+for i in s:
+   print(i,end=' ')
+#index based:
+for i in range(len(s)):
+    print(s[i])
+sorted(s)
+prints in list 
+But s wont change
+----------------
+s.capitalize()
+output: makes first letter to capital
+
+s.title()
+output: makes every first letter in the word to capital
+
+s.isupper()
+prints true or false
+
+s.islower()
+prints true or false
+
+s.upper()
+output:every letter changes to capital
+
+****But the original string s will not be modified
+
+s.lower()
+output:every letter changes to small 
+---------
+ord():to find ascii value of any char
+
+ord('A')
+65
+---------------
+chr(): to find the character value of the ascii
+
+chr(98)
+b
+-------------------------------------------
+to convert string to list:
+s=this is python
+d=s.split()
+d
+['this', 'is', 'python']
+
+len(d)
+len(d[1])
+
+d=list(s)
+d
+['t',..'s',' ','i'.........'n']
+------------------------------------
+to convert list to string:
+s="".join(d)-------initailizing an empty string
+s
+thisispython
+
+s=" ".join(d)
+s
+this is python
+
